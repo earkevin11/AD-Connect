@@ -10,6 +10,7 @@
 
 Two types of synchronization process in Azure AD
 1. <em> Password Hash Synchornization </em> (AD duplicated to Azure AD) - Password of the user is also replicated to Azure AD.
+- Azure AD Connect synchronizes a hash, of the hash, of a user's password from an on-premises Active Directory instance to a cloud-based Azure AD instance.
 - Users can use the same username and password to log onto resources in the on premises environment and the Azure AD environment
 2. <em> Pass through authentication </em> is where users can log into both the on premises environment and the Azure AD environment BUT authentication happens at the on-prem AD first because not all feautures of AD is present in Azure AD. This allows organizations to enforce their on-premise Active Directory security and password policies.
 
