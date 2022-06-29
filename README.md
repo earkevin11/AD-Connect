@@ -8,7 +8,7 @@
 # Azure AD Connect Diagram
 <p align="center">
   
-<img src="https://user-images.githubusercontent.com/104326475/176541035-08654dcd-0c06-41bd-ac1f-259f4417ba28.png" height="55%" width="55%" alt="Privileged Identity Management"/>
+<img src="https://user-images.githubusercontent.com/104326475/176541035-08654dcd-0c06-41bd-ac1f-259f4417ba28.png" height="155%" width="155%" alt="Privileged Identity Management"/>
   
 <p/>
 
