@@ -5,8 +5,12 @@
 - Some organizations will have an AD on prem and also have Azure AD users, in order to sync the two so that on-prem AD environment and Azure AD users can exchange resources.
 - Azure AD Connect Component would need to be installed on a separate Windows Server which would be domain joined to the Active Directory domain. The Azure AD Connect Component would fetch the users from AD and sync it to Azure AD.
 
-
-
+# Azure AD Connect Diagram
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/176541035-08654dcd-0c06-41bd-ac1f-259f4417ba28.png" height="55%" width="55%" alt="Privileged Identity Management"/>
+  
+<p/>
 
 Two types of synchronization process in Azure AD
 1. <em> Password Hash Synchornization </em> (AD duplicated to Azure AD) - Password of the user is also replicated to Azure AD.
